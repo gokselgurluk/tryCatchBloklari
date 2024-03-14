@@ -20,7 +20,7 @@ public class Main {
           checkArray(userIndexNum,array);
 
         }catch (ArrayIndexOutOfBoundsException e){
-            System.out.println("9 dan buyuk rakam giremezsiniz");
+            System.out.println("9 dan buyuk rakam giremezsiniz\n"+e.toString());
         }
 
 
